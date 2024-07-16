@@ -6,7 +6,7 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 
-	<link rel="stylesheet" href="style/tourist.css"> 
+	<link rel="stylesheet" href="style/admin_home.css"> 
 </head>
 <body>
 <!-- Header Section -->
@@ -21,27 +21,42 @@
     <li><a href="#">HOME</a></li>
   
     <li>
-      <a href="#">VIEW_INFORMATION</a>
+      <a href="">PLACE</a>
       <ul>
-        <li><a href="tourist_places.jsp">Tourist-Places</a></li>
+        <li><a href="#">Add Places</a></li>
+  		<li><a href="#">View Places</a></li>
         
-        
-        <li><a href="#">Banks</a></li>
-        <li><a href="#">Hotels</a></li>
-        <li><a href="#">Restaurants</a></li>
-        <li><a href="#">Temples</a></li>
-           <li><a href="#">Hospitals</a></li>
-              <li><a href="#">Malls</a></li>
       </ul>
     </li>
-    <li><a href="userlogin.jsp">LOGOUT</a></li>
+    
+        <li>
+      <a href="">CITY</a>
+      <ul>
+        <li><a href="#">Add City</a></li>
+  		<li><a href="#">View City</a></li>
+        
+      </ul>
+    </li>
+    
+           <li>
+      <a href="">CATEGORY</a>
+      <ul>
+        <li><a href="#">Add Category</a></li>
+  		<li><a href="#">View Category</a></li>
+        
+      </ul>
+    </li>
+    
+    
+    <li><a href="index.jsp">LOGOUT</a></li>
+    
   </ul>
 </nav>
 	
 	 <main>
    <DIV class= "container">
 	<img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu74IpP_pWHpnIE-8IMREBRIM3w7P1nPHHyQ&s" style="width:220vh ; height:80vh">
-	 <div class="centered">TOURIST GUIDE</div>
+	 <div class="centered">Welcome : Admin</div>
 	</DIV>
 
   </main>

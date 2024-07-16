@@ -1,4 +1,5 @@
 @charset "ISO-8859-1";
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -30,11 +31,7 @@ header h1 {
 }
 
 
-/* Navigation Styles */nav {
-  background-color: #333;
-  padding: 10px;
-  text-align: center;
-}
+/* Navigation Styles */
 
 nav ul {
   list-style: none;
@@ -42,67 +39,53 @@ nav ul {
   padding: 0;
   display: flex;
   justify-content: space-between;
+  background-color: #444;
+  padding: 10px;
 }
 
 nav li {
-  position: relative;
   margin-right: 20px;
 }
 
 nav a {
-  text-decoration: none;
   color: #fff;
-  transition: color 0.2s ease;
+  text-decoration: none;
 }
 
 nav a:hover {
   color: #ccc;
 }
 
-/* Style the dropdown menu */
-nav li ul {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: #333;
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  display: none;
-}
 
-nav li:hover ul {
-  display: block;
-}
+/*feedback*/
 
-nav li ul li {
-  margin-bottom: 10px;
-  width:200px;
+.container1 {
+			width: 1000px;
+			margin: 40px auto;
+			padding: 20px;
+			border: 1px solid #ccc;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		.form-control {
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 20px;
+			border: 1px solid #ccc;
+		}
+		.btn1-submit {
+			background-color: #4CAF50;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		.btn1-submit:hover {
+			background-color: #3e8e41;
+		}
 
-}
-
-nav li ul li a {
-  color: #fff;
-}
-
-nav li ul li a:hover {
-  color: #ccc;
-}
-
-/* Style the dropdown menu arrow */
-nav li ul:before {
-  content: "";
-  position: absolute;
-  top: -10px;
-  left: 50%;
-  transform: translateX(-50%);
-  border-bottom: 10px solid #333;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-}
-
-
-
+/* Footer Styles */
 
 footer {
   background-color: #333;

@@ -19,11 +19,13 @@
 	<nav>
 		<ul>
 			<li><a href="#">HOME</a></li>
-			<!-- <li><a href="admin.jsp">ADMINISTRATOR</a></li> -->
-			<li><a href="userlogin.jsp">USERS</a></li>
-			<li><a href="registration.jsp">REGISTRATION</a></li>
-			<li><a href="">FEEDBACK</a></li>
-		</ul>
+			
+			<li><a href="about.jsp">ABOUT</a></li>
+			<li><a href="contact.jsp">CONTACT</a></li>
+			<li><a href="map.jsp">MAP</a></li>
+			<li><a href="admin.jsp">ADMIN</a></li>
+			<li><a href="team.jsp">OUR TEAM</a></li>
+			</ul>
 	</nav>
 	
 	<!-- Main Content Section -->
@@ -33,31 +35,39 @@
 	<img src = "https://t4.ftcdn.net/jpg/05/05/51/25/360_F_505512599_D6ulJI9hV6aGTP04FPC2XDk5QHGOQtpW.jpg" style="width:200vh ; height:80vh" >
 	 <div class="centered">WELCOME TO MY CITY</div>
 	</DIV>
-	<br>
-	<div class="center">
-	<h1><u>Project Abstract</u></h1>
-	
-	<br>
 
-		It is a web-based product used to store the details of particular city and helps all the users who just visits our website. This site also provides all the services like Hotel booking for tourists, Ticket booking, Transport facility providing, business related information, marketing details, city news, shopping detail. It facilitates communication between users, experts and general public through chat/polls/mail. This will definitely help the users for the purpose of saving their valuable time which can’t be got back which is also economically viable. This system provides a registration form for all who wants to get the services. This can be categorized based on the type of users. It provides different registration forms for different categories. In case of students if they need to download any material or to get information about coaching centres and college institutions/Incase of businessmen to get the information about any kind of business/Incase of tourists to get the hospitality facilities/in case of jobseekers to get the information about available job details they need to give their ID& PASSWORD for security purpose and AC.NO only at the time of transactional providence.
+	</main>
+	<div class="container1">
+<h2>Select City</h2>
+<div class ="select-box">
 
+<select>
+<option>Select</option>
+<option>Prayagraj</option>
+<option>Kanpur</option>
+
+</select>
+</div>
+
+<h2>Select Category</h2>
+<div class ="select-box">
+
+<select>
+<option>Select</option>
+<option>Tourist Places</option>
+<option>Hospitals</option>
+<option>Temples</option>
+
+</select>
+</div>
 </div>
 <br>
-	</main>
+<input type="submit" value="Submit" href="Tourprayag.jsp"class="btn1-submit">
+
+<br><br>
+
+
 	
-	<div class="container1">
-		<h1>Feedback Form</h2>
-		<br>
-		<form action=" " method="post">
-			<label for="name">Name:</label>
-			<input type="text" id="name" name="name" class="form-control"><br><br>
-			<label for="email">Email:</label>
-			<input type="email" id="email" name="email" class="form-control"><br><br>
-			<label for="feedback">Feedback:</label>
-			<textarea id="feedback" name="feedback" class="form-control" rows="5"></textarea><br><br>
-			<input type="submit" value="Submit" class="btn1-submit">
-		</form>
-	</div>
 	
 	<!-- Footer Section -->
 	<footer>
