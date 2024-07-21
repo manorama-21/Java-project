@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>About the project</title>
 <link rel="stylesheet" href="style/about.css"> 
 </head>
 <body>
@@ -20,8 +20,8 @@
 			<!-- <li><a href="admin.jsp">ADMINISTRATOR</a></li> -->
 			
 			<li><a href="registration.jsp">CONTACT</a></li>
-			<li><a href="">MAP</a></li>
-			<li><a href="">ADMIN</a></li>
+			<li><a href="map.jsp">MAP</a></li>
+			<li><a href="admin.jsp">ADMIN</a></li>
 			<li><a href="index.jsp">BACK</a></li>
 			</ul>
 	</nav>
@@ -30,7 +30,7 @@
 	
 	<br>
 
-		It is a web-based product used to store the details of particular city and helps all the users who just visits our website. This site also provides all the services like Hotel booking for tourists, Ticket booking, Transport facility providing, business related information, marketing details, city news, shopping detail. It facilitates communication between users, experts and general public through chat/polls/mail. This will definitely help the users for the purpose of saving their valuable time which can’t be got back which is also economically viable. This system provides a registration form for all who wants to get the services. This can be categorized based on the type of users. It provides different registration forms for different categories. In case of students if they need to download any material or to get information about coaching centres and college institutions/Incase of businessmen to get the information about any kind of business/Incase of tourists to get the hospitality facilities/in case of jobseekers to get the information about available job details they need to give their ID& PASSWORD for security purpose and AC.NO only at the time of transactional providence.
+		This project android tourist guide provides the tourist with city map depending on its current location entered. This information helps the tourists to find the desired locations to visit. Well it consists of entire details of those locations or how to reach the location as well as other emergency amenities like hospitals, institutes, bus stops etc but it provides the basic information to decide the places to visit. This project is mainly beneficial for the tourist’s having no idea about the places they want to visit. By providing a geographic based information system the tourists and people shifting to new cities can get a better guidance of the places they want to visit .This proposed application does not require any internet access and thus eliminates the disadvantage of single point failure. By making the application GIS based, it includes many advantages as the user can view the required location in map and accordingly estimate the time that will be required to reach the final destination. The system gives the basic details that will be required such as an image of that place along with basic details like the address, contact no etc.
 
 </div>
 

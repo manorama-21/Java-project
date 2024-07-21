@@ -49,7 +49,8 @@
         <input type="password" id="password" name="password" required>
       </div>
       <button type="submit"><a href="admin_home.jsp">Submit</a></button>
-      <button type="reset">Reset</button>
+      <button type="reset"><a href="admin.jsp">Reset</a></button>
+      </button>
     </form>
     <a href="index.jsp">Back to Home</a>
   </div>

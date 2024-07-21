@@ -18,7 +18,7 @@
 	<!-- Navigation Section -->
 	<nav>
 		<ul>
-			<li><a href="#">HOME</a></li>
+			<li><a href="index.jsp">HOME</a></li>
 			
 			<li><a href="about.jsp">ABOUT</a></li>
 			<li><a href="contact.jsp">CONTACT</a></li>
@@ -29,7 +29,7 @@
 	</nav>
 
 <section class="team-section">
-<h2>Meet Our Team</h2>
+<h2>Meet Our Team Members</h2>
 
 <div class="team-container">
 <div class="team-member">

@@ -23,7 +23,7 @@
     <li>
       <a href="">PLACE</a>
       <ul>
-        <li><a href="#">Add Places</a></li>
+        <li><a href="addplaces.jsp">Add Places</a></li>
   		<li><a href="#">View Places</a></li>
         
       </ul>
@@ -32,7 +32,7 @@
         <li>
       <a href="">CITY</a>
       <ul>
-        <li><a href="#">Add City</a></li>
+        <li><a href="addcity.jsp">Add City</a></li>
   		<li><a href="#">View City</a></li>
         
       </ul>
@@ -41,7 +41,7 @@
            <li>
       <a href="">CATEGORY</a>
       <ul>
-        <li><a href="#">Add Category</a></li>
+        <li><a href="addcategory.jsp">Add Category</a></li>
   		<li><a href="#">View Category</a></li>
         
       </ul>

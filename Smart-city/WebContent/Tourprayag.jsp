@@ -10,20 +10,25 @@
 
 </head>
 <body>
+<!-- Header Section -->
+	<header>
+		<h1>SMART CITY (CITY GUIDE)</h1>
 
+	</header>
+ <a href="index.jsp" style="font-size:20px;float:right;">Back To Home.....</a>
   <div class="container">
         <div class="header">
             <h1>Tourist Places in Allahabad</h1>
         </div>
         <div class="tourist-place">
             <div class="place">
-                <img src="https://media.assettype.com/barandbench%2F2021-01%2F490c7b28-76f0-4292-96d3-e356f818ba4b%2FAllahabad_High_Court_Law_Museum.jpg?rect=0%2C0%2C1600%2C900&w=1200&auto=format%2Ccompress&fit=max" alt="Law Museum & Archives">
+                <img src="https://media.assettype.com/barandbench%2F2021-01%2F490c7b28-76f0-4292-96d3-e356f818ba4b%2FAllahabad_High_Court_Law_Museum.jpg?rect=0%2C0%2C1600%2C900&w=1200&auto=format%2Ccompress&fit=max" alt="Law Museum & Archives" >
                 <h2>Law Museum & Archives</h2>
                 <p class="category">Historic</p>
                 <p>The Indian High Courts Act, 1861 provided for establishment of the Calcutta, Bombay and Madras High Courts. It also reserved...</p>
                 <div class="actions">
-                    <a href="#">Direction</a>
-                    <a href="#">Share</a>
+                    <a href="tour_law.jsp">Show  more..........</a>
+                   
                 </div>
             </div>
             <div class="place">
@@ -31,8 +36,8 @@
                 <h2>Allahabad Museum</h2>
                 <p>The Allahabad Museum is centrally located in the Civil Lines area of the city in a lush green garden at...</p>
                 <div class="actions">
-                    <a href="#">Direction</a>
-                    <a href="#">Share</a>
+                    <a href="tour_alldm.jsp">Show more.........</a>
+                  
                 </div>
             </div>
             <div class="place">
@@ -91,5 +96,12 @@
             </div>
         </div>
     </div>
+    
+    
+    <!-- Footer Section -->
+	<footer>
+		<p>&copy; 2024 SMART CITY - CITY GUIDE</p>
+	</footer>
+	
 </body>
 </html>

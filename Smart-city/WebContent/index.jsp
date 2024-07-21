@@ -40,9 +40,9 @@
 	<div class="container1">
 <h2>Select City</h2>
 <div class ="select-box">
-
-<select>
-<option>Select</option>
+<!-- 
+<select name="links" id="" size="1" onchange="window.location.href=this.value;"> -->
+<option>Select option</option>
 <option>Prayagraj</option>
 <option>Kanpur</option>
 
@@ -52,9 +52,9 @@
 <h2>Select Category</h2>
 <div class ="select-box">
 
-<select>
-<option>Select</option>
-<option>Tourist Places</option>
+<select name="links" id="" size="1" onchange="window.location.href=this.value;">
+<option>Select option</option>
+<option value="Tourprayag.jsp">Tourist Places</option>
 <option>Hospitals</option>
 <option>Temples</option>
 

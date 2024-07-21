@@ -56,34 +56,58 @@ nav a:hover {
   color: #ccc;
 }
 
+.feedback-form {
 
-/*feedback*/
-
-.container1 {
-			width: 1000px;
+			width: 40%;
 			margin: 40px auto;
 			padding: 20px;
+			background-color: #f9f9f9;
 			border: 1px solid #ccc;
 			border-radius: 10px;
 			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			animation: fadeIn 1s ease-in;
 		}
-		.form-control {
-			width: 100%;
-			padding: 10px;
+
+		h2 {
+			text-align: center;
+			margin-top: 5rem;
+			animation: bounceIn 1s ease-in;
+		}
+
+		.form-group {
 			margin-bottom: 20px;
+		}
+
+		.form-control {
+			height: 40px;
+			padding: 10px;
+			font-size: 16px;
 			border: 1px solid #ccc;
 		}
-		.btn1-submit {
-			background-color: #4CAF50;
-			color: #fff;
+
+		.form-control:focus {
+			border-color: #aaa;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+
+		.btn-danger {
+			background-color: #dc3545;
+			border-color: #dc3545;
 			padding: 10px 20px;
-			border: none;
+			font-size: 16px;
 			border-radius: 5px;
 			cursor: pointer;
 		}
-		.btn1-submit:hover {
-			background-color: #3e8e41;
+
+		.btn-danger:hover {
+			background-color: #c82333;
+			border-color: #c82333;
 		}
+
+		textarea.form-control {
+			height: 100px;
+		}
+
 
 /* Footer Styles */
 

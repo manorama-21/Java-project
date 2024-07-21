@@ -3,68 +3,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Add Places</title>
-
- <link rel="stylesheet" href="style/addplaces.css"> 
+<meta charset="ISO-8859-1">
+<title>Add Place</title>
+<link rel="stylesheet" href="style/addplaces.css"> 
 </head>
 <body>
-
-
-
-<!-- Header Section -->
-	<header>
+<header>
 		<h1>SMART CITY (CITY GUIDE)</h1>
 
 	</header>
 	
-	<!-- Navigation Section -->
+		<!-- Navigation Section -->
 	<nav>
-		  <ul>
-      <li><a href="#">HOME</a></li>
-      <li><a href="addplaces.jsp">ADD-PLACES</a></li>
-     
-      <li><a href="#">PLACE DETAILS</a></li>
-      
-      <li><a href="index.jsp">LOGOUT</a></li>
-    </ul>
-	</nav>
-	
-<h1>Add Places</h1>
-
-<form>
-  <label for="category">Select the Category:</label>
-  <select id="category" name="category">
-    <option value="">Select</option>
-    <option value="hotel">Hotels</option>
-       <option value="hospital">Hospitals</option>
-          <option value="temple">Temples</option>
-             <option value="college">Schools/Colleges</option>
-               <option value="college">Tourist-places</option>
+  <ul>
+    <li><a href="admin.jsp">HOME</a></li>
+  
+    <li>
+      <a href="">PLACE</a>
+      <ul>
+        <li><a href="addplaces.jsp">Add Places</a></li>
+  		<li><a href="#">View Places</a></li>
+        
+      </ul>
+    </li>
     
-    </select>
+        <li>
+      <a href="">CITY</a>
+      <ul>
+        <li><a href="addcity.jsp">Add City</a></li>
+  		<li><a href="#">View City</a></li>
+        
+        
+      </ul>
+    </li>
+    
+           <li>
+      <a href="">CATEGORY</a>
+      <ul>
+        <li><a href="addcategory.jsp">Add Category</a></li>
+  		<li><a href="#">View Category</a></li>
+        
+      </ul>
+    </li>
+    
+    
+    <li><a href="admin_home.jsp">LOGOUT</a></li>
+    
+  </ul>
+</nav>
+	<br><br>
+<h1><font color="indigo">ADD PLACES</font></h1>
 
-  <label for="placeName">Place Name:</label>
-  <input type="text" id="placeName" name="placeName" value="I">
-
-  <label for="file1">Choose File:</label>
-  <input type="file" id="file1" name="file1">
-
-  <label for="file2">Choose File:</label>
-  <input type="file" id="file2" name="file2">
-
-  <label for="file3">Choose File:</label>
-  <input type="file" id="file3" name="file3">
-
-  <label for="city">City:</label>
-  <input type="text" id="city" name="city" value="Pondicherry">
-
-  <label for="search">Type here to search:</label>
-  <input type="search" id="search" name="search">
-
-  <input type="submit" value="Add Places">
+<form action="/add_places" method="post">
+<br>
+  <label for="place_title">Place Title*</label><br>
+  <input type="text" id="place_title" name="place_title" value=""><br><br>
+  <input type="submit" value="Submit">
 </form>
 
-<footer>
+	<br><br>
+	<footer>
  <p>&copy; 2024 SMART CITY - CITY GUIDE</p>
 </footer>
 </body>
