@@ -329,7 +329,7 @@ footer p {
 
 	</header>
 
-	<a href="tour_law.jsp" style="font-size:20px;float:right;">Back >>>>>..</a>
+	<a href="tourprayag.jsp" style="font-size:20px;float:right;">Back >>>>>..</a>
 	
 	<div class="container-fluid header text-center" style="">
 		

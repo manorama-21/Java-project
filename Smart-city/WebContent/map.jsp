@@ -20,9 +20,9 @@
 			<li><a href="index.jsp">HOME</a></li>
 			<!-- <li><a href="admin.jsp">ADMINISTRATOR</a></li> -->
 			<li><a href="about.jsp">ABOUT</a></li>
-			<li><a href="registration.jsp">CONTACT</a></li>
+			<li><a href="contact.jsp">CONTACT</a></li>
 			
-			<li><a href="">ADMIN</a>
+			<li><a href="admin.jsp">ADMIN</a>
 			<li><a href="index.jsp">BACK</a></li>
 			</ul>
 	</nav>

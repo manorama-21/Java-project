@@ -59,9 +59,20 @@ nav a {
 nav a:hover {
   color: #ccc;
 }
+
+
 .centered {
   position: absolute;
   top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:65px;
+  color:white;
+  font-weight:bold;
+}
+.centered1 {
+  position: absolute;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size:65px;
@@ -120,7 +131,8 @@ select{
 		.btn1-submit:hover {
 			background-color: #3e8e41;
 		}
-
+		
+		
 
 /* Footer Styles */
 

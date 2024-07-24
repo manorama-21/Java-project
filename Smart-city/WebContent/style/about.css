@@ -57,7 +57,11 @@ nav a:hover {
 .center{
 	text-align:center;				
 }
-
+.container{
+	width:150vh;
+	position:relative;
+	left:25vh;
+}
 
 /* Footer Styles */
 

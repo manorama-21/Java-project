@@ -1,15 +1,16 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-	<title>CITY GUIDE - A COMPLETE CITY GUIDE USING DATABASE</title>
+<meta charset="ISO-8859-1">
+<title>CITY GUIDE - A COMPLETE CITY GUIDE USING DATABASE</title>
 	<link rel="stylesheet" href="style/index.css"> 
 	
 </head>
 <body>
-	<!-- Header Section -->
+
+<!-- Header Section -->
 	<header>
 		<h1>SMART CITY (CITY GUIDE)</h1>
 
@@ -32,37 +33,39 @@
 	<main>
 	
 	<DIV class= "container">
-	<img src = "https://t4.ftcdn.net/jpg/05/05/51/25/360_F_505512599_D6ulJI9hV6aGTP04FPC2XDk5QHGOQtpW.jpg" style="width:200vh ; height:80vh" >
+	<img src = "https://www.trawell.in/admin/images/upload/630209706Allahabad_Main.jpg" style="width:200vh ; height:80vh; " >
 	 <div class="centered">WELCOME TO MY CITY</div>
+	 <div class="centered1">(PRAYAGRAJ)</div>
 	</DIV>
 
 	</main>
 	<div class="container1">
-<h2>Select City</h2>
+<!-- <h2>Select City</h2>
 <div class ="select-box">
-<!-- 
-<select name="links" id="" size="1" onchange="window.location.href=this.value;"> -->
+
+<select name="links" id="" size="1" onchange="window.location.href=this.value;">
 <option>Select option</option>
 <option>Prayagraj</option>
 <option>Kanpur</option>
 
 </select>
-</div>
+</div> -->
 
 <h2>Select Category</h2>
 <div class ="select-box">
 
 <select name="links" id="" size="1" onchange="window.location.href=this.value;">
 <option>Select option</option>
-<option value="Tourprayag.jsp">Tourist Places</option>
-<option>Hospitals</option>
-<option>Temples</option>
+<option value="tourprayag.jsp">Tourist Places</option>
+<option value="mallprayag.jsp">Malls</option>
+<option value="hosprayag.jsp">Hospitals</option>
+<option value="temprayag.jsp">Temples</option>
 
 </select>
 </div>
 </div>
 <br>
-<input type="submit" value="Submit" href="Tourprayag.jsp"class="btn1-submit">
+<input type="submit" value="Submit" href="tourprayag.jsp"class="btn1-submit">
 
 <br><br>
 

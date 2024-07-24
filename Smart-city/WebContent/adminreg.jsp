@@ -4,8 +4,8 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<title>Register page</title>
+  <link rel="stylesheet" href="style/register.css"> 
 <style>
 
 
@@ -90,60 +90,61 @@ nav a:hover {
 			<li><a href="admin.jsp">ADMIN</a></li>
 		</ul>
 	</nav>
+	
+		<div class="show">
+	<br><br>
 
- <div id="alert-box" ></div><br><br>
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="card">
-                    <div class="card-body">
-                        <h2 class="card-title text-center">Admin Register Page</h2>
-                        <form>
-                          <div class="form-group">
-                                <input type="name" id="name" class="form-control" placeholder="Enter Name" >
-                            </div>
-                            <div class="form-group">
-                                <input type="email" id="userEmail" class="form-control" placeholder="Enter Email" >
-                            </div>
-                            <div class="form-group">
-                                <input type="password" id="password" class="form-control" placeholder="Enter Password" >
-                            </div>
-                            <button class="btn btn-warning btn-block" type="submit"><a href="admin.jsp">Register</a></button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
+  <div class="container">
+        <h2>Admin Register</h2>
+        <form id="register-form" action="register" method="post">
+            <label for="uname">UserName:</label>
+            <input type="text" id="uname" name="uname"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br><br>
+           
+            <input type="submit" value="Register" onClick="return Submit();">
+        </form>
+       
     </div>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script>
-        const form = document.querySelector('form');
-        form.addEventListener('submit', (e) => {
-            e.preventDefault();
-            const userEmail = document.getElementById('userEmail').value;
-            const password = document.getElementById('password').value;
-            if (userEmail && password) {
-                $('#alert-box').html(`
-                    <div class="alert alert-success alert-dismissible fade show" role="alert">
-                        Registration successful! Your email is: ${userEmail}
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                `);
-            } else {
-                $('#alert-box').html(`
-                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                        Please fill in all fields!
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                `);
-            }
-        });
-    </script>
+    </div>
+    
+     
+     <!-- Footer Section -->
+	<footer>
+		<p>&copy; 2024 SMART CITY - CITY GUIDE</p>
+	</footer>
+     <script>
+     function Submit(){
+    	 var emailRegex=/^[A-Za-z0-9._]*\@[A-Za-z]*\[A-Za-z]{2,5}$/;
+    	 var uname =document.form.UserName.value,
+    	 email=document.form.Email.value,
+    	 password=document.form.Password.value,
+    	 
+    	 if(uname == ""){
+    		 document.form.UserName.focus();
+    		 document.getElementById("errorBox").innerHTML ="Enter uname";
+    		 return false;
+    	 }
+    	 
+    	 if(email == ""){
+    		 document.form.Email.focus();
+    		 document.getElementById("errorBox").innerHTML ="Enter email";
+    		 return false;
+    	 }
+    	 
+    	 if(password == ""){
+    		 document.form.Password.focus();
+    		 document.getElementById("errorBox").innerHTML ="Enter password";
+    		 return false;
+    	 }
+    	 if(uname!='' && email!='' && password!=''){
+    		 document.getElementById("errorBox").innerHTML="Form Submitted successfully;"
+    		 
+    	 }
+     }
+     </script>
+   
 </body>
 </html>

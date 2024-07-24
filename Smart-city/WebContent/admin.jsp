@@ -38,20 +38,13 @@
     <div class="container">
     <h1>Admin Login</h1>
 
-
-    <form>
-      <div>
-        <label for="email">Mail Id:</label>
-        <input type="text" id="email" name="email" required>
-      </div>
-      <div>
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
-      </div>
-      <button type="submit"><a href="admin_home.jsp">Submit</a></button>
-      <button type="reset"><a href="admin.jsp">Reset</a></button>
-      </button>
-    </form>
+  <form id="login-form" action ="login">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br><br>
+            <input type="submit" value="Login" onClick="return Submit();">
+        </form>
     <a href="index.jsp">Back to Home</a>
   </div>
     </div>
@@ -61,7 +54,33 @@
 	<footer>
 		<p>&copy; 2024 SMART CITY - CITY GUIDE</p>
 	</footer>
-    
+	
+
+     <script>
+     
+     function Submit(){
+    	 var emailRegex=/^[A-Za-z0-9._]*\@[A-Za-z]*\[A-Za-z]{2,5}$/;
+    	 var email=document.form.Email.value,
+    	 password=document.form.Password.value,
+    	 
+    	 
+    	 if(email == ""){
+    		 document.form.Email.focus();
+    		 document.getElementById("errorBox").innerHTML ="Enter email";
+    		 return false;
+    	 }
+    	 
+    	 if(password == ""){
+    		 document.form.Password.focus();
+    		 document.getElementById("errorBox").innerHTML ="Enter password";
+    		 return false;
+    	 }
+    	 if(uname!='' && email!='' && password!=''){
+    		 document.getElementById("errorBox").innerHTML="Form Submitted successfully;"
+    		 
+    	 }
+     }
+     </script>
 </body>
 
 </html>

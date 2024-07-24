@@ -27,7 +27,7 @@
 			<li><a href="contact.jsp">CONTACT</a></li>
 			<li><a href="map.jsp">MAP</a></li>
 			<li><a href="admin.jsp">ADMIN</a></li>
-			<li><a href="">OUR TEAM</a></li>
+			<li><a href="team.jsp">OUR TEAM</a></li>
 			</ul>
 	</nav>
 	

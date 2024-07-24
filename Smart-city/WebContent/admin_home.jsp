@@ -18,7 +18,7 @@
 	<!-- Navigation Section -->
 	<nav>
   <ul>
-    <li><a href="#">HOME</a></li>
+    <li><a href="admin.jsp">HOME</a></li>
   
     <li>
       <a href="">PLACE</a>
