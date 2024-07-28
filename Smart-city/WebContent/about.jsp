@@ -19,7 +19,7 @@
 			<li><a href="index.jsp">HOME</a></li>
 			<!-- <li><a href="admin.jsp">ADMINISTRATOR</a></li> -->
 			
-			<li><a href="registration.jsp">CONTACT</a></li>
+			<li><a href="contact.jsp">CONTACT</a></li>
 			<li><a href="map.jsp">MAP</a></li>
 			<li><a href="admin.jsp">ADMIN</a></li>
 			<li><a href="index.jsp">BACK</a></li>

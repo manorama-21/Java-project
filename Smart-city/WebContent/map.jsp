@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Map</title>
 
 <link rel="stylesheet" href="style/map.css">
 </head>
@@ -18,7 +18,7 @@
 	<nav>
 		<ul>
 			<li><a href="index.jsp">HOME</a></li>
-			<!-- <li><a href="admin.jsp">ADMINISTRATOR</a></li> -->
+		
 			<li><a href="about.jsp">ABOUT</a></li>
 			<li><a href="contact.jsp">CONTACT</a></li>
 			

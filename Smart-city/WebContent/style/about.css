@@ -37,7 +37,7 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: space-between;
+ justify-content: flex-end;
   background-color: #444;
   padding: 10px;
 }

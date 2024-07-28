@@ -7,7 +7,6 @@
 <title>Contact page</title>
 <link rel="stylesheet" href="style/contact.css"> 
  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
- 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 	
 </head>
@@ -24,10 +23,11 @@
 			<li><a href="index.jsp">HOME</a></li>
 			
 			<li><a href="about.jsp">ABOUT</a></li>
-			<li><a href="contact.jsp">CONTACT</a></li>
+			
 			<li><a href="map.jsp">MAP</a></li>
 			<li><a href="admin.jsp">ADMIN</a></li>
 			<li><a href="team.jsp">OUR TEAM</a></li>
+			<li><a href="index.jsp">BACK</a>
 			</ul>
 	</nav>
 	
@@ -35,127 +35,124 @@
 	<main>
 
 <div class="container mt-5">
-    <div class="row">
-        <!-- Contact Section -->
-        <div class="col-md-6 mb-4">
-            <div class="card" align="center">
-                <div class="card-header bg-primary text-white" >
-                    <h4>Contact Us</h4>
-                </div>
-                <div class="card-body">
-                    <form action="submit_contact.php" method="post">
-                        <div class="form-group">
-                         
-                           <label style="font-size:30px;font-weight:bold;"><u>City Guide</u></label>
-                        </div>
-                        <div class="form-group">
-                            <label for="contact-email">Email</label><br>
-                            <label>city.guide123@gmail.com</label>
-                        </div>
-                        <div class="form-group">
-                            <label for="contact-subject">Phone No</label><br>
-                            <label>+91xxxxxxxxxx</label>
-                        </div>
-                       <img src="images/facebook.png" alt="facebook" style="height: 10%;width: 10%;">
-                       <img src="images/instagram.jpeg" alt="instagram" style="height: 7%;width: 7%;">
-                       <img src="images/twiter.png" alt="twiter" style="height: 10%;width: 10%;">
-                   <!--     <img src="github.png" alt="github" style="height: 6%;width: 6%;"> -->
-                       
-                    </form>
-                </div>
-            </div>
-        </div>
+    <h4 class="con">Contact Us</h4>
+    <div class="card contact-form">
         
-        <!-- Feedback Section -->
-        <div class="col-md-6 mb-4">
-            <div class="card"align="center">
-                <div class="card-header bg-primary text-white">
-                    <h4>Feedback Section</h4>
-                    
-                    	<div class="feedback-form">
-			<form id="feedback-form">
-				<div class="form-group">
-					<label for="name">Name:</label>
-					<input type="text" class="form-control" id="name" name="name" required>
-				</div>
-				<div class="form-group">
-					<label for="email">Email:</label>
-					<input type="email" class="form-control" id="email" name="email" required>
-				</div>
-				<div class="form-group">
-					<label for="message">Message:</label>
-					<textarea class="form-control" id="message" name="message" rows="5" required></textarea>
-				</div>
-				<button type="submit" class="btn btn-primary " id="submit-btn" disabled>Send Feedback</button>
-			</form>
-		</div>
-
-		<!-- Bootstrap Modal -->
-		<div class="modal fade" id="feedback-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-			<div class="modal-dialog" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h5 class="modal-title" id="exampleModalLabel">Feedback Submitted!</h5>
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-							<span aria-hidden="true">&times;</span>
-						</button>
-					</div>
-					<div class="modal-body">
-						<p>Thank you for submitting your feedback!</p>
-						<p>Your name: <span id="modal-name"></span></p>
-						<p>Your email: <span id="modal-email"></span></p>
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-					</div>
-				</div>
-			</div>
-		</div>
+        <div class="card-header ">
+           
+        </div>
+        <div class="card-body">
+            <form action="submit_contact.php" method="post">
+                <div class="form-group">
+                    <label> City Guide</label>
                 </div>
-                
-                        
-                    </form>
+                <div class="form-group">
+                    <label>Email: city.guide123@gmail.com</label>
+                </div>
+                <div class="form-group">
+                    <label>Phone No: +91xxxxxxxxxx</label>
+                </div>
+
+                <div class="form-group">
+                    <label>Address : 8, Master Zahurul Hasan Rd, Old Katra, Prayagraj, Uttar Pradesh 211002</label>
+                </div>
+
+
+                <div class="form-group">
+                    <img src="images/facebook.png" alt="facebook" style="height: 10%;width: 10%;">
+                    <img src="images/instagram.jpeg" alt="instagram" style="height: 7%;width: 7%;">
+                    <img src="images/twiter.png" alt="twiter" style="height: 10%;width: 10%;">
+                    <img src="images/github.png" alt="github" style="height: 6%;width: 6%;">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<br>
+<div class="container">
+<br><br>
+    <h2>Feedback Form</h2>
+
+    <div class="feedback-form" style="margin-left: 28rem;">
+        <form id="feedback-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary " id="submit-btn" disabled>Send Feedback</button>
+        </form>
+    </div>
+
+    <!-- Bootstrap Modal -->
+    <div class="modal fade" id="feedback-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Feedback Submitted!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Thank you for submitting your feedback!</p>
+                    <p>Your name: <span id="modal-name"></span></p>
+                    <p>Your email: <span id="modal-email"></span></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
     </div>
+
 </div>
 
+</main>
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-	<script>
-		$(document).ready(function() {
-			$('#feedback-form input, #feedback-form textarea').on('keyup', function() {
-				if ($('#name').val() && $('#email').val() && $('#message').val()) {
-					$('#submit-btn').prop('disabled', false);
-				} else {
-					$('#submit-btn').prop('disabled', true);
-				}
-			});
+<script>
+    $(document).ready(function() {
+        $('#feedback-form input, #feedback-form textarea').on('keyup', function() {
+            if ($('#name').val() && $('#email').val() && $('#message').val()) {
+                $('#submit-btn').prop('disabled', false);
+            } else {
+                $('#submit-btn').prop('disabled', true);
+            }
+        });
 
-			$('#feedback-form').submit(function(event) {
-				event.preventDefault();
+        $('#feedback-form').submit(function(event) {
+            event.preventDefault();
 
-				var name = $('#name').val();
-				var email = $('#email').val();
-				var message = $('#message').val();
+            var name = $('#name').val();
+            var email = $('#email').val();
+            var message = $('#message').val();
 
-				$('#feedback-modal').modal('show');
+            $('#feedback-modal').modal('show');
 
-				$('#modal-name').text(name);
-				$('#modal-email').text(email);
+            $('#modal-name').text(name);
+            $('#modal-email').text(email);
 
-				$('#name').val('');
-				$('#email').val('');
-				$('#message').val('');
+            $('#name').val('');
+            $('#email').val('');
+            $('#message').val('');
 
-				$('#submit-btn').prop('disabled', true);
-			});
-		});
-	</script>
-	<br><br><br><br>
+            $('#submit-btn').prop('disabled', true);
+        });
+    });
+</script>
+
 	<!-- Footer Section -->
 	<footer>
 		<p>&copy; 2024 SMART CITY - CITY GUIDE</p>

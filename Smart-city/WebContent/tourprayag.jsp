@@ -104,7 +104,7 @@
             <div class="place">
                
                 <h2 style="font-weight:bold;color:indigo;"> <img src="https://static.toiimg.com/thumb/msid-50353180,width=1200,height=900/50353180.jpg" alt="Allahabad Museum"style="float:left"><br>Allahabad Museum</h2><br>
-                <p1>The Allahabad Museum is centrally located in the Civil Lines area of the city in a lush green garden at...</p1><br><br>
+                <p1 style="padding:0 10px;">The Allahabad Museum is centrally located in the Civil Lines area of the city in a lush green garden at...</p1><br><br>
                 
                 <button type="button" class="btn btn-primary " data-toggle="modal" data-target=".bd-example-modal-lg "style="float:right">Show More</button>
 

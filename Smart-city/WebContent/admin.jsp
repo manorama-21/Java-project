@@ -38,7 +38,7 @@
     <div class="container">
     <h1>Admin Login</h1>
 
-  <form id="login-form" action ="login">
+  <form id="login-form" action ="login" method="post">
             <label for="email">Email:</label>
             <input type="email" id="email" name="email"><br><br>
             <label for="password">Password:</label>

@@ -43,10 +43,11 @@ public class register extends HttpServlet {
 			ps.setString(3, password);
 			
 			int i=ps.executeUpdate();
+			
 			if(i>0) {
 				out.println("You are successfully registered");
-				RequestDispatcher rd=req.getRequestDispatcher("admin.jsp");
-				rd.include(req, res);
+				res.sendRedirect("admin.jsp");
+				
 				
 				
 			}
@@ -57,4 +58,11 @@ public class register extends HttpServlet {
 		}
 
 	
-}}
+}
+
+
+
+	private void sendRedirect(String string) {
+		// TODO Auto-generated method stub
+		
+	}}

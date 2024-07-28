@@ -114,12 +114,15 @@ a{
 
 .place{
 	border:3px solid black;
+	padding:24px 10px;
+	height:40vh;
 }
 
 
   
 button{
   margin-left: 5rem;
+  
   }
   
   img{
