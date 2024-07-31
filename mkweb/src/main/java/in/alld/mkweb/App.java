@@ -14,22 +14,83 @@ public class App
 {
     public static void main( String[] args )
     {
-    	try {
-    		 ApplicationContext cxt = new AnnotationConfigApplicationContext(ConfigFile.class);
-    		    String query ="create database manu";
-    			
-				/*
-				 * String query
-				 * ="create table student(name varchar(30), mail varchar(35),location varchar(49))"
-				 * ;
-				 */
-    			   
-    		    JdbcTemplate jT=(JdbcTemplate) cxt.getBean(JdbcTemplate.class);
-    		    jT.update(query);
-    		    System.out.println("Created");
-    	}catch(Exception e){
-    		System.out.println(e.getMessage());
-    	}
-   
+		/*
+		 * ApplicationContext cxt = new
+		 * AnnotationConfigApplicationContext(ConfigFile.class);
+		 */
+    	
+    	ApplicationContext cxt =new AnnotationConfigApplicationContext(ConfigFile.class);
+    	
+  //--------------------create database ----------------------------------------// 	
+    	
+	
+	/*
+	 * String query ="create database chuku";
+	 * 
+	 * JdbcTemplate jT =(JdbcTemplate) cxt.getBean(JdbcTemplate.class);
+	 * jT.update(query);
+	 *  System.out.println("created");
+	 */
+
+    	
+ //--------------------delete database ----------------------------------------// 	
+	/*
+	 * String query ="drop database chuku"; 
+	 * 
+	 * JdbcTemplate jT =(JdbcTemplate) cxt.getBean(JdbcTemplate.class); 
+	 * jT.update(query);
+	 * System.out.println("deleted");
+	 */
+  
+    	
+ //--------------------create Table ----------------------------------------// 	
+    	
+	
+	/*
+	 * String query="create table nsti(name varchar(30), mail varchar(30),location varchar(30))";
+	 * 
+	 *  JdbcTemplate jT =(JdbcTemplate) cxt.getBean(JdbcTemplate.class);
+	 * jT.update(query); 
+	 * System.out.println("created");
+	 */
+	 
+    	
+    	
+ //--------------------delete Table ----------------------------------------// 	
+    	
+	/*
+	 * String query ="drop table nsti"; 
+	 * 
+	 * JdbcTemplate jT =(JdbcTemplate) cxt.getBean(JdbcTemplate.class);
+	 *  jT.update(query);
+	 * System.out.println("deleted");
+	 */
+		   
+    	
+ //--------------------insert data  ----------------------------------------// 	
+    	
+	
+	
+	  String query ="insert into student values(?,?,?)"; 
+	  String name = "manu";
+	  String mail="manu@gmail.com";
+	  String location="prayagraj";
+	 
+	  
+	  JdbcTemplate jT =(JdbcTemplate) cxt.getBean(JdbcTemplate.class);
+	  jT.update(query,name,mail,location);
+	  System.out.println("inserted");
+	 
+	 
+
+    
+    	
+    	
+	/*
+	 * String query = "update student set mail=? where location =?"; JdbcTemplate jT
+	 * =(JdbcTemplate) cxt.getBean(JdbcTemplate.class);
+	 * jT.update(query,location,"delhi@abc.com"); System.out.println("updated");
+	 */
+     
     }
 }
