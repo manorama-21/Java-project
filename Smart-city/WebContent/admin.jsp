@@ -12,19 +12,19 @@
 
 	<!-- Header Section -->
 	<header>
-		<h1>SMART CITY (CITY GUIDE)</h1>
+		<h1><marquee behavior="scroll" direction="left" scrollamount="20">SMART CITY (CITY GUIDE)</marquee></h1>
 
 	</header>
 	
 	<!-- Navigation Section -->
 	<nav>
 		<ul>
-			<li><a href="index.jsp">HOME</a></li>
+			<li><a href="index.jsp">Home</a></li>
 			
-			<li><a href="about.jsp">ABOUT</a></li>
-			<li><a href="contact.jsp">CONTACT</a></li>
-			<li><a href="map.jsp">MAP</a></li>
-			<li><a href="admin.jsp">ADMIN</a></li>
+			<li><a href="about.jsp">About</a></li>
+			<li><a href="contact.jsp">Contact</a></li>
+			<li><a href="gallery.jsp">Gallery</a></li>
+			<li><a href="admin.jsp">Admin</a></li>
 		</ul>
 	</nav>
 	

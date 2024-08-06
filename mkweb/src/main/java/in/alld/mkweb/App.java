@@ -71,26 +71,23 @@ public class App
     	
 	
 	
-	  String query ="insert into student values(?,?,?)"; 
-	  String name = "manu";
-	  String mail="manu@gmail.com";
-	  String location="prayagraj";
-	 
-	  
-	  JdbcTemplate jT =(JdbcTemplate) cxt.getBean(JdbcTemplate.class);
-	  jT.update(query,name,mail,location);
-	  System.out.println("inserted");
+	/*
+	 * String query ="insert into student values(?,?,?)"; String name = "trapti";
+	 * String mail="trapti@gmail.com"; String location="etawah";
+	 * 
+	 * 
+	 * JdbcTemplate jT =(JdbcTemplate) cxt.getBean(JdbcTemplate.class);
+	 * jT.update(query,name,mail,location); System.out.println("inserted");
+	 */
 	 
 	 
 
     
     	
     	
-	/*
-	 * String query = "update student set mail=? where location =?"; JdbcTemplate jT
-	 * =(JdbcTemplate) cxt.getBean(JdbcTemplate.class);
-	 * jT.update(query,location,"delhi@abc.com"); System.out.println("updated");
-	 */
-     
-    }
-}
+   JdbcTemplate jT=(JdbcTemplate) cxt.getBean(JdbcTemplate.class);
+	 String query = "update student set name=? where location =?"; 
+	 int updated =jT.update(query ,"Piyush","Allahabad");
+	 System.out.println("updated");
+	 
+}}

@@ -12,7 +12,7 @@
 <body>
 <!-- Header Section -->
 	<header>
-		<h1>SMART CITY (CITY GUIDE)</h1>
+		<h1><marquee behavior="scroll" direction="left" scrollamount="20">SMART CITY (CITY GUIDE)</marquee></h1>
 
 	</header>
 	  <br>

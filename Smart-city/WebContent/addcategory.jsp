@@ -11,17 +11,17 @@
 <body>
 
 <header>
-		<h1>SMART CITY (CITY GUIDE)</h1>
+		<h1><marquee behavior="scroll" direction="left" scrollamount="20">SMART CITY (CITY GUIDE)</marquee></h1>
 
 	</header>
 	
 		<!-- Navigation Section -->
 	<nav>
   <ul>
-    <li><a href="admin_home.jsp">HOME</a></li>
+    <li><a href="admin_home.jsp">Home</a></li>
   
     <li>
-      <a href="">PLACE</a>
+      <a href="">Place</a>
       <ul>
         <li><a href="addplaces.jsp">Add Places</a></li>
   		<li><a href="#">View Places</a></li>
@@ -30,7 +30,7 @@
     </li>
     
         <li>
-      <a href="">CITY</a>
+      <a href="">City</a>
       <ul>
         <li><a href="addcity.jsp">Add City</a></li>
   		<li><a href="#">View City</a></li>
@@ -40,7 +40,7 @@
     </li>
     
            <li>
-      <a href="">CATEGORY</a>
+      <a href="">Category</a>
       <ul>
         <li><a href="addcategory.jsp">Add Category</a></li>
   		<li><a href="#">View Category</a></li>
@@ -49,7 +49,7 @@
     </li>
     
     
-    <li><a href="admin_home.jsp">LOGOUT</a></li>
+    <li><a href="admin_home.jsp">Logout</a></li>
     
   </ul>
 </nav>
