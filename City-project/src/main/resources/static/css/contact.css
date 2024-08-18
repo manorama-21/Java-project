@@ -1,0 +1,175 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9; ;
+}
+
+/* Header Styles */
+
+header {
+	background-image:url("https://t4.ftcdn.net/jpg/02/32/92/55/360_F_232925587_st4gM8b3TJHtjjddCIUNyVyFJmZqMmn4.jpg");
+  color: #fff;
+  padding: 1px;
+  text-align: center;
+
+  
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color:white;
+}
+
+
+/* Navigation Styles */
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #444;
+  padding: 10px;
+}
+
+nav li {
+  margin-right: 20px;
+  display:inline;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+
+.contact-form img {
+  width: 30px;
+  height: 40px;
+  margin: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.contact-form img:hover {
+  transform: scale(1.2);
+}
+
+.contact-form img.facebook {
+  color: #3b5998;
+}
+
+.contact-form img.instagram {
+  color: #e1306c;
+}
+
+.contact-form img.twitter {
+  color: #1da1f2;
+}
+
+.contact-form img.github {
+  color: #333;
+}
+  .contact-form {
+    font-weight: bolder;
+    height: 25rem;
+    padding: 10px;
+            width: 50%;
+            float: left;
+            margin-left: -22rem;
+            margin-top: 5rem;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+            border-radius: 20px;
+        }
+        .feedback-form {
+
+width: 40%;
+margin: 40px auto;
+
+padding: 20px;
+background-color: #f9f9f9;
+border: 1px solid #c5b9b9;
+border-radius: 10px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+animation: fadeIn 1s ease-in;
+}
+
+h2 {
+text-align: center;
+margin-top: 5rem;
+animation: bounceIn 1s ease-in;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+.form-control {
+height: 40px;
+padding: 10px;
+font-size: 16px;
+border: 1px solid #ccc;
+}
+
+.form-control:focus {
+border-color: #aaa;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-danger {
+background-color: #dc3545;
+border-color: #dc3545;
+padding: 10px 20px;
+font-size: 16px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.btn-danger:hover {
+background-color: #c82333;
+border-color: #c82333;
+}
+
+h4{
+    text-align: center;
+}
+
+textarea.form-control {
+height: 100px;
+}
+
+.container{
+    float: right;
+    margin-top: -35rem;
+   position: relative;
+
+
+}
+.con{
+    float: left;
+    font-size: 30px;
+    }
+
+/* Footer Styles */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+}
+
+footer p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}

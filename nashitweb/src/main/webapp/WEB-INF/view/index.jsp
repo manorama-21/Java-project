@@ -7,6 +7,18 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Hello world</h1>
+<h1>JSP with spring</h1>
+<a href="about.jsp">Redirect</a>
+
+<h2>
+<!-- Expression Language  -->
+<%
+String a =(String) request.getAttribute("name");
+out.println(a);
+String b =(String) request.getAttribute("location");
+out.println(b);
+%>
+
+</h2>
 </body>
 </html>
